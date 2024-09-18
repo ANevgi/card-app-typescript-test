@@ -15,7 +15,9 @@
   "dependencies": {
     "@fastify/cors": "^7.0.0",
     "@prisma/client": "^3.14.0",
+    "backend": "file:",
     "fastify": "^3.29.0",
+    "jest-mock-extended": "^4.0.0-beta1",
     "prisma": "^3.14.0",
     "ts-node": "^10.7.0",
     "typescript": "^5.0.4",

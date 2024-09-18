@@ -10,9 +10,13 @@ datasource db {
   url      = "file:./database.db"
 }
 
+// Task 2: Added scheduled_date field
+// Added updated_at field to track changes for editing entries
 model Entry {
-  id          String   @id @default(uuid())
-  title       String
-  description String
-  created_at  DateTime
+  id             String   @id @default(uuid())
+  title          String
+  description    String
+  scheduled_date DateTime
+  created_at     DateTime
+  updated_at     DateTime
 }
